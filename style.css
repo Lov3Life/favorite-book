@@ -11,18 +11,18 @@
 body {
     padding: 0;
     margin: 0;
-}
-header {
     background-color: aqua;
 }
 
 #open-button {
     margin: 5px;
     border-radius: 10px;
-    background-color: aqua;
+    background-color: lightskyblue;
     border: none;
     font-size: 1.5rem;
     position: fixed;
+    top: 0;
+    left: 0;
 }
 
 nav {
@@ -33,12 +33,15 @@ nav {
     left: 0;
     height: 100vh;
     display: none;
-    background-color: aliceblue;
+    background-color: lightskyblue;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
 }
 
 nav button, nav ul li {
     width: 100%;
     border: 1px solid darkblue;
+    border-radius: 20px;
 }
 
 nav button {
@@ -56,7 +59,7 @@ nav ul {
 
 nav ul li {
     text-align: center;
-    background-color: gainsboro;
+    background-color: skyblue;
     height: 60px;
     padding-top: 15px;
 }
@@ -72,17 +75,10 @@ nav ul li a:hover {
     transition: all 0.4s;
 }
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
-}
-
-h1 {
-    margin-top: 0;
-    margin-bottom: 40px;
-    text-align: center;
-    padding-top: 40px;
 }
 
 header {
