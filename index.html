@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mały Książę</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <button onclick="NavBarDisplayNone()" id="close-button">Close X</button>
+    <ul>
+      <li><a onclick="NavBarDisplayNone()" href="#home">Początek strony</a></li>
+      <li><a onclick="NavBarDisplayNone()" href="#short-info">Krótki opis</a></li>
+      <li><a onclick="NavBarDisplayNone()" href="#book-creation">Powstanie książki</a></li>
+      <li><a onclick="NavBarDisplayNone()" href="#hand-made">Rękopis</a></li>
+      <li><a onclick="NavBarDisplayNone()" href="#in-poland">Mały Książę w Polsce</a></li>
+    </ul>
+  </nav>
+  <main>
+    <header>
+      <button onclick="NavBarDisplay()" id="open-button">&#9776;</button>
+      <h1 id="home">Mały Książe</h1>
+      <div class="img"></div>
+    </header>
+    <section id="short-info">
+      <h2>Krótki opis</h2>
+      <p>
+        Mały Książę (fr. Le Petit Prince) – powiastka filozoficzna autorstwa Antoine'a de Saint-Exupéry'ego, wydana w 1943 w Nowym Jorku w wydawnictwie „Reynal & Hitchcock”; przetłumaczona na ponad 
+        300 języków bądź dialektów, sprzedana w ponad 140 milionach egzemplarzy, należy do klasyki światowej literatury. Mały Książę jest pozycją szczególną również w twórczości Exupéry'ego. To jedyna 
+        książka, której nadał formę baśni i którą sam zilustrował. Wyjątkowość tego utworu należy rozpatrywać w szerszym kontekście: tylko pozornie jest to lektura przeznaczona dla dzieci. 
+        Pod warstwą baśniowej fabuły pełnej wieloznaczności, znajduje się też wątek realistyczny i psychologiczny.
+      </p>
+      <p class="before-small">
+        Od początku zamiarem autora było adresowanie książki do dorosłego czytelnika, dlatego zadedykował ją Léonowi Werthowi, dopisując:
+      </p>
+      <p class="small">
+        "Przepraszam wszystkie dzieci za poświęcenie tej książki dorosłemu. Mam ważne ku temu powody: ten dorosły jest moim najlepszym przyjacielem na świecie. Drugi powód: ten dorosły 
+        potrafi zrozumieć wszystko, nawet książki dla dzieci..."
+      </p>
+    </section>
+    <section id="book-creation">
+      <h2>Powstanie książki</h2>
+      <p>Przypuszcza się, że zamiar napisania Małego Księcia powstał latem 1941 roku, kiedy pisarz przebywał w szpitalu w Los Angeles. Problemy zdrowotne pogłębione były przez osobiste 
+        kłopoty: Saint-Exupéry przeżywał rozterki związane z opuszczeniem ojczyzny (po inwazji niemieckiej na Francję), rozstanie z najważniejszą w jego życiu osobą – matką oraz labilność 
+        emocjonalną jego związku z żoną Consuelą. Będąc w szpitalu, czytywał baśnie Andersena.
+        Przyjazd Consuelo z Francji zmobilizował Exupéry'ego do ukończenia Małego Księcia. Pisarz rozszerzył wówczas wątek róży, której pierwowzorem była postać żony.
+        Pisał o tym w liście do niej, wyrzucając przy tym sobie, podobnie jak to czynił Mały Książę w stosunku do róży: Ale ja chyba nie zawsze wiedziałem, jak troszczyć się o Ciebie. 
+        Żałował też później, że Werthowi, a nie Consuelo zadedykował swe dzieło.
+        Niedługo po ukazaniu się książki drukiem Exupéry wyjechał do francuskiej bazy lotniczej w Afryce Północnej.
+      </p>
+    </section>
+    <section id="hand-made">
+      <h2>Rękopis</h2>
+      <p>
+        Oryginalny manuskrypt z odręcznymi notatkami i podpisem autora Małego Księcia, jak również różne projekty i rysunki próbne zostały nabyte w 1968 roku przez Pierpont Morgan 
+        Library (obecnie Morgan Library & Museum) w Manhattanie w Nowym Jorku. Rękopis ten zawiera skreślone treści, które ostatecznie nie zostały opublikowane w ramach edycji książki. 
+        Muzeum, oprócz rękopisu, posiada także kilka akwarel autorstwa Antoine de Saint-Exupery'ego, które także nie znalazły się w książce. W kwietniu 2012 paryski dom aukcyjny ogłosił 
+        odkrycie dwóch nieznanych wcześniej stron rękopisu „Małego Księcia”, na których znalazła się nieznana dotąd wersja jednego z rozdziałów. Jest to opis pierwszego spotkania Księcia z 
+        Ziemianinem, którego nazywa „ambasadorem ludzkiego ducha”. Jest on jednak zbyt zajęty, aby rozmawiać, mówiąc, że szuka zaginionego sześcioliterowego słowa zaczynającego się na literę „G” 
+        oznaczającego „płukanie gardła” (fr. se gargariser, w języku potocznym znaczy również „być dumnym i zadowolonym z czegoś”). W znalezionym rękopisie nie pada to szukane słowo, ale mając 
+        na uwadze czas powstania dzieła i zaangażowanie pisarza przeciwko wojnie można się domyślać, że chodzi o słowo „wojna” (fr. guerre).
+      </p>
+    </section>
+    <section id="in-poland">
+      <h2>Mały Książę w Polsce</h2>
+      <p>
+        Mały Książę wzbudził wyjątkowe zainteresowanie polskich czytelników. Dowodem na to jest nie tylko fakt, że przekładu tekstu z francuskiego na język polski podjęło się aż 18 różnych tłumaczy. 
+        Mało znanym faktem jest to, że język polski jest pierwszym językiem na świecie, na który przełożono Małego Księcia (nie licząc oczywiście języka angielskiego, w którym książka ukazała się jeszcze 
+        na kilka dni przed wydaniem francuskim). Książka ukazała się nakładem Spółdzielni Wydawniczej Płomienie w tłumaczeniu Marty Malickiej już dwa lata po zakończeniu wojny (Warszawa, 1947). 
+        Na kolejne tłumaczenia: na język niemiecki i włoski, trzeba było czekać kolejne dwa lata.
+      </p>
+      <p>
+        W Polsce Małego Księcia wydano także w języku łemkowskim – Малий Прінц (ISBN 978-83-936592-0-3) i pruskim – Līkuts Princis (ISBN 978-83-65053-00-8). W 2015 Juliusz Kubel przełożył utwór
+         na gwarę poznańską, nadając mu tytuł Książę Szaranek. Rok później książkę Książę Szaranek wydało wydawnictwo Media Rodzina (ISBN 978-83-8008-291-5). W 2018 roku wydano przekład na 
+         język kaszubski. Tłumaczenia z oryginału dokonał Maciej Bandur, nadając kaszubskiej wersji tytuł Môłi princ. Mały Książę został również przełożony na etnolekt śląski i gwarę mazurską.
+      </p>
+      <p>
+        W 2021 roku Fundacja Nowoczesna Polska, prowadząca bibliotekę internetową Wolne Lektury, wydała pierwsze polskie tłumaczenie książki na wolnej licencji (Licencji Wolnej Sztuki 1.3.). 
+        Autorką tłumaczenia jest Agata Kozak.
+      </p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
