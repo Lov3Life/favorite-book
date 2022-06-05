@@ -36,6 +36,7 @@ nav {
     background-color: lightskyblue;
     border-radius: 20px;
     border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 nav button, nav ul li {

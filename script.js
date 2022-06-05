@@ -1,6 +1,10 @@
 const OpenButton = document.getElementById("open-button");
+const CloseButton = document.getElementById("close-button");
 const NavBar = document.querySelector("nav");
 const MainStyle = document.querySelector("main");
+
+OpenButton.addEventListener("click", NavBarDisplay);
+CloseButton.addEventListener("click", NavBarDisplayNone);
 
 function NavBarDisplay() {
     NavBar.style.display = "block";
