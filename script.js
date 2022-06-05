@@ -5,7 +5,7 @@ const MainStyle = document.querySelector("main");
 const CloseLink = document.getElementsByClassName("close-link");
 
 OpenButton.addEventListener("click", NavBarDisplay);
-CloseButton.addEventListener("click", NavBarDisplayNone);
+CloseButton.addEventListener("click", NavBarHide);
 
 function NavBarDisplay() {
     NavBar.style.display = "block";
@@ -14,17 +14,17 @@ function NavBarDisplay() {
     OpenButton.style.margin = "0";
 }
 
-function NavBarDisplayNone() {
+function NavBarHide() {
     NavBar.style.display = "none";
     MainStyle.style.marginLeft = "0";
     OpenButton.style.display = "inline";
     OpenButton.style.margin = "5px";
 }
 
-window.onload = HowManyCloseLink;
+window.onload = HowMuchCloseLink;
 
-function HowManyCloseLink() {
+function HowMuchCloseLink() {
     for(let i = 0; i < CloseLink.length; i++) {
-        CloseLink[i].addEventListener("click", NavBarDisplayNone);
+        CloseLink[i].addEventListener("click", NavBarHide);
     }
 }
